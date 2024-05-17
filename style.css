@@ -45,6 +45,10 @@ body {
     background-color: orange;
 }
 
+#calc-body .row > .equal {
+    background-color: orange;
+}
+
 #calc-body .row > .grey {
     background-color: grey;
 }
@@ -52,6 +56,10 @@ body {
 #calc-body .row > .output {
     background-color: black;
     font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-right: 20px;
 }
 
 footer {
