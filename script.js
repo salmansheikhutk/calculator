@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 // Create three variables
 let firstnumber = ""
 let secondnumber = ""
@@ -146,3 +147,4 @@ function equalfunction (){
 
 fullmath();
 
+});
